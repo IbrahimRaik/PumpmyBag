@@ -127,7 +127,7 @@ const LandingPage = () => {
             <div class="flex flex-col space-y-8">
               <div class="">
                 <div class="flex space-x-2 ">
-                  <div class="mt-20 bg-custom-light-gray w-1/2 h-30 flex items-center justify-center border-2 border-gray-500 rounded-2xl shadow-2xl shadow-black m-4 p-1">
+                  <div class="mt-20 bg-custom-light-gray w-1/2 h-30 flex items-center justify-center  rounded-2xl shadow-2xl shadow-black m-4 p-1">
                     <div class="flex flex-col  items-end  w-30">
                       <img
                         src={flower}
@@ -167,17 +167,17 @@ const LandingPage = () => {
                   </div>
                 </div>
               </div>
-              <div class=" h-auto flex items-center justify-center">
-                <div class="flex space-x-4">
-                  <div class=" w-1/2 h-42 flex items-center justify-center rounded-2xl shadow-2xl shadow-black m-9">
-                    <div class="flex flex-col  items-end space-x-4">
+              <div class="">
+                <div class="flex">
+                  <div class=" w-[40%] h-auto flex items-center justify-center rounded-2xl shadow-2xl shadow-black m-5">
+                    <div class="flex flex-col  items-start space-x-2">
                       <img
                         src={circle}
                         alt="Flower"
-                        class="w-16 h-16 object-cover"
+                        class="w-15 h-15 object-cover ml-4"
                       />
 
-                      <div class="flex flex-col">
+                      <div class="flex flex-col p-1">
                         <h1
                           class="text-lg text-black
                         font-oxygen font-bold text-[21.28px] leading-[45.61px] tracking-[-0.04em]
@@ -187,7 +187,7 @@ const LandingPage = () => {
                         </h1>
                         <p
                           class="text-sm text-black
-                        font-oxygen font-light text-[17.73px] leading-[25.71px] tracking-[-0.04em]
+                        font-oxygen font-light text-[17.73px] leading-[20.71px] tracking-[-0.04em]
                         "
                         >
                           Smart contract automation ensures a transparent and
@@ -197,25 +197,25 @@ const LandingPage = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="bg-custom-light-gray w-1/2 h-auto flex items-center justify-center rounded-2xl shadow-2xl shadow-black m-1">
-                    <div class="flex flex-col  items-end space-x-4">
+                  <div class="mt-1 bg-custom-light-gray w-[60%] h-40 flex items-center justify-center  rounded-2xl shadow-2xl shadow-black m-4 p-1">
+                    <div class="flex flex-col  items-start w-30">
                       <img
                         src={circle}
                         alt="Flower"
-                        class="w-16 h-16 object-cover"
+                        class="w-15 h-15 object-cover mt-4 ml-1"
                       />
 
                       <div class="flex flex-col">
                         <h1
-                          class="text-lg text-black
-                        font-oxygen font-bold text-[21.28px] leading-[25.61px] tracking-[-0.04em]
+                          class="ml-4 text-lg text-black
+                        font-oxygen font-bold text-[16.28px] leading-[25.61px] tracking-[-0.04em]
                         "
                         >
                           Track your campaign's success with a detailed
                           analytics dashboard:
                         </h1>
                         <p
-                          class="text-sm text-black
+                          class="ml-5  text-sm text-black
                         font-oxygen font-light text-[17.73px] leading-[25.71px] tracking-[-0.04em]
                         "
                         >
