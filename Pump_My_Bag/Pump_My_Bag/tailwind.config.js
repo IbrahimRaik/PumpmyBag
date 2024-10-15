@@ -45,17 +45,17 @@ module.exports = {
         'custom': '47.28px',
         'custom-lg': '41.64px', // Define a custom line height
         'custom-sm': '22.21px', // Define a custom line height
-        'custom-md': '19.45px', // Define a custom line height
+        'custom-md': '25.45px', // Define a custom line height
         'custom-xl': '57.28px', // Define a custom line height
         'extra-loose': '55.82px',
       },
       screens: {
-        'xs': '480px', // xs screens (480px and above) Example of adding a custom extra small breakpoint
-        'sm': '640px', //sm screens (640px and above)
-        'md': '768px', //md screens (768px and above), 
-        'lg': '1024px', //lg screens (1024px and above),
-        'xl': '1280px', //xl screens (1280px and above),
-        '2xl': '1536px', //2xl screens (1536px and above),
+        // 'xs': '480px', // xs screens (480px and above) Example of adding a custom extra small breakpoint
+        // 'sm': '640px', //sm screens (640px and above)
+        // 'md': '768px', //md screens (768px and above), 
+        // 'lg': '1024px', //lg screens (1024px and above),
+        // 'xl': '1280px', //xl screens (1280px and above),
+        // '2xl': '1536px', //2xl screens (1536px and above),
       },
       letterSpacing: {
         'tight-custom': '-0.02em',  // Custom letter spacing (-2%)

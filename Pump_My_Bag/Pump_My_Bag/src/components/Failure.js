@@ -10,13 +10,13 @@ const Failure = () => {
     return(<>
       <div class="bg-custom-white p-4">
        {/* <!-- Navbar Section --> */}
-       <div class="border-2 border-gray-500 rounded-3xl p-4">
+       <div class="border-2 border-gray-500 rounded-3xl p-1">
           <nav class="p-1">
             <div class="container mx-auto flex justify-between items-center">
               {/* <!-- Left side (Logo Image) --> */}
               <div class="flex items-center">
                 <a href="#">
-                  <img src={PumpMyBag} alt="Logo" class="h-10 w-30 mr-3" />
+                  <img src={PumpMyBag} alt="Logo" class="h-5 w-30 mr-3" />
                 </a>
                 {/* <span class="text-white text-2xl font-bold">MyLogo</span>  */}
               </div>
@@ -28,16 +28,29 @@ const Failure = () => {
           <div className="bg-custom-white 
            w-full max-w-[90%] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] xl:max-w-[700px] 
           p-6 rounded-lg shadow-lg  text-center">
-            {/* Done Logo */}
-            <div className="w-12 h-12 mx-auto mb-4">
-            <img src={remove} alt="Logo" class="h-15 w-15 mr-3" />             
+           
+            <a href="#" class="absolute top-19 right-10">
+              <Link to="/token">
+                <img
+                  src={closed}
+                  alt="Logo"
+                  class="h-5 w-5 cursor-pointer"
+                  onClick={() => setIsFailOpen(false)}
+                />
+                </Link>
+                </a>
+            {/* <a href="#" class="absolute top-19 right-10">
+              <img src={closed} alt="Logo" class="h-5 w-5" />
+            </a> */}
+            <div className="w-40 h-20 mx-auto mb-20">
+            <img src={remove} alt="Logo" class="h-15 w-30 mr-3" />             
             </div>
 
             {/* Transaction Completed Title */}
             {/* <h2 className="font-sf font-bold text-black text-custom leading-custom font-bold ">TRANSACTION FAILED!</h2> */}
 
             {/* Congratulatory Message */}
-            <p className="font-malgun text-[#FF0505] font-bold text-[24px] leading-[31.92px] mb-4">
+            <p className="font-malgun text-[#FF0505] font-bold text-[20px] leading-[57.28px] mt-10  mb-4">
               Try Again!
             </p>
 
@@ -48,9 +61,9 @@ const Failure = () => {
               "
               onClick={() => setIsFailOpen(false)}
             >
-              <Link to="/">Back To Home</Link>
+              <Link to="/addsToPump">Back To Home</Link>
             </button>
-            <div class="text-center  mt-6">
+            <div class="text-center  mt-20">
             <a href="https://adpod.xyz/" class="text-red-500 underline ">
               Powered by AdPod.xyz
             </a>

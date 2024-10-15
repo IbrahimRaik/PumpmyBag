@@ -13,18 +13,18 @@ const AddsToPump = () => {
     <>
       <div class="bg-custom-white p-4">
         {/* <!-- Navbar Section --> */}
-        <div class="border-2 border-gray-500 rounded-3xl p-4">
+        <div class="border-2 border-gray-500 rounded-3xl p-1">
           <nav class="p-1">
             <div class="container mx-auto flex justify-between items-center">
               {/* <!-- Left side (Logo Image) --> */}
               <div class="flex items-center">
                 <a href="#">
-                  <img src={pumpMyBag} alt="Logo" class="h-10 w-30 mr-3" />
+                  <img src={pumpMyBag} alt="Logo" class="h-5 w-30 mr-3" />
                 </a>
               </div>
                {/* <!-- Right side (Connect Button) --> */}
-              <div class="font-sf-pro font-bold text-2xl leading-[30px] tracking-[-0.02em] text-center">
-                <button class="px-10 py-1 bg-custom-button-color text-black font-semibold rounded-3xl  transition duration-300">
+              <div class="flex items-center font-sf-pro font-bold text-[14px] leading-[30px] tracking-[-0.01em] text-center w-18 h-1">
+                <button class="px-8 bg-custom-button-color text-black font-semibold rounded-3xl  transition duration-300">
                   <Link to="/pumpMyBag">Connected</Link>
                 </button>
               </div>
