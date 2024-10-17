@@ -14,8 +14,10 @@ const Token = () => {
             <div class="container mx-auto flex justify-between items-center">
               {/* <!-- Left side (Logo Image) --> */}
               <div class="flex items-center">
-                <a href="#">
-                  <img src={PumpMyBag} alt="Logo" class="h-5 w-30 mr-3" />
+              <a href="#">
+                  <Link to="/">
+                    <img src={PumpMyBag} alt="Logo" class="h-5 w-30 mr-3" />
+                  </Link>
                 </a>
                 {/* <span class="text-white text-2xl font-bold">MyLogo</span>  */}
               </div>
@@ -23,7 +25,7 @@ const Token = () => {
               {/* <!-- Right side (Connect Button) --> */}
               <div class="flex items-center font-sf-pro font-bold text-[14px] leading-[30px] tracking-[-0.01em] text-center w-18 h-1">
                 <button class="px-8 bg-custom-button-color text-black font-semibold rounded-3xl  transition duration-300">
-                  <Link to="/pumpMyBag">Connect</Link>
+                  <Link to="/connectedWallet">Connect</Link>
                 </button>
               </div>
             </div>
@@ -35,9 +37,12 @@ const Token = () => {
             <h1 class="text-center text-white text-[30px] font-malgun font-bold text-lg  leading-custom-lg">
               List Token for Advertising
             </h1>
+           
             <div class="absolute right-0 top-0">
               <a href="#">
+              <Link to="/communityLEDToken">
                 <img src={close} alt="Close" class="h-6 w-6" />
+                </Link>
               </a>
             </div>
           </div>

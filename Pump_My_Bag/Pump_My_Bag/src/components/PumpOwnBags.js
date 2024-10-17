@@ -1,6 +1,7 @@
 import PumpMyBag from "../images/PumpMyBag.png";
 import rectangle from "../images/rectangle.jpg";
 import close from "../images/close.png";
+import { Link } from "react-router-dom";
 
 const PumpOwnBags = () => {
   return (
@@ -12,8 +13,10 @@ const PumpOwnBags = () => {
             <div class="container mx-auto flex justify-between items-center">
               {/* <!-- Left side (Logo Image) --> */}
               <div class="flex items-center">
-                <a href="#">
-                  <img src={PumpMyBag} alt="Logo" class="h-10 w-30 mr-3" />
+              <a href="#">
+                  <Link to="/">
+                    <img src={PumpMyBag} alt="Logo" class="h-5 w-30 mr-3" />
+                  </Link>
                 </a>
                 {/* <span class="text-white text-2xl font-bold">MyLogo</span>  */}
               </div>

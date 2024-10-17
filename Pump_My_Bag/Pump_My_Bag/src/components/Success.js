@@ -16,8 +16,10 @@ const Success = () => {
             <div class="container mx-auto flex justify-between items-center">
               {/* <!-- Left side (Logo Image) --> */}
               <div class="flex items-center">
-                <a href="#">
-                  <img src={PumpMyBag} alt="Logo" class="h-5 w-30 mr-3" />
+              <a href="#">
+                  <Link to="/">
+                    <img src={PumpMyBag} alt="Logo" class="h-5 w-30 mr-3" />
+                  </Link>
                 </a>
                 {/* <span class="text-white text-2xl font-bold">MyLogo</span>  */}
               </div>
@@ -52,6 +54,14 @@ const Success = () => {
               <p className="font-sf font-bold  text-black text-custom mb-4">
                 Congratulations
               </p>
+              <button
+              className="bg-custom-button-color text-black py-1 px-2 rounded-lg
+              font-sf-pro font-normal text-[18.68px] tracking-tight-custom text-center
+              "
+              onClick={() => setIsOpen(false)}
+            >
+              <Link to="/">Back To Home</Link>
+            </button>
 
               {/* Close Button */}
               {/* <button

@@ -14,8 +14,10 @@ const LandingPage = () => {
             <div class="container mx-auto flex justify-between items-center">
               {/* <!-- Left side (Logo Image) --> */}
               <div class="flex items-center">
-                <a href="#">
-                  <img src={pumpMyBag} alt="Logo" class="h-5 w-30 mr-3" />
+              <a href="#">
+                  <Link to="/">
+                    <img src={pumpMyBag} alt="Logo" class="h-5 w-30 mr-3" />
+                  </Link>
                 </a>
               </div>
               {/* <!-- Right side (Connect Button) --> */}
